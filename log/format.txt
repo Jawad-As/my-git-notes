@@ -1,0 +1,10 @@
+#
+
+Allows you to display commit however you want using printf-style placeholders
+
+	git log --pretty=format:"<string>" option
+
+Example, the %cn, %h, %cd charachters are replaced with the commiter name, abbreviated hash, and the commited date
+complete list of placeholders available here: https://www.kernel.org/pub/software/scm/git/docs/git-log.html#_pretty_formats
+
+    git log --pretty=format:"%cn commited %h on %cd"

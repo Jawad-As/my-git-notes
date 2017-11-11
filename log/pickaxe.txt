@@ -1,0 +1,8 @@
+# Pickaxe docs
+# https://gitfu.wordpress.com/2008/06/03/the-pickaxe-finding-changes-was-never-easier/
+
+
+		$ git log -Sgit-diffs
+
+
+

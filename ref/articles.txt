@@ -1,0 +1,7 @@
+#
+
+Advanced git log 
+https://www.atlassian.com/git/tutorials/git-log
+
+Git pickaxe (ie. -S)
+https://gitfu.wordpress.com/2008/06/03/the-pickaxe-finding-changes-was-never-easier/

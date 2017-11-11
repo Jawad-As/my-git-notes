@@ -1,0 +1,21 @@
+# the basics
+
+Display the commit logs.
+One line per commit. Compacted info.
+
+	$ git log --oneline
+
+Make git log display all of the references (branches, tags etc.)
+
+	 $ git log --decorate
+
+Group each commit by Author.
+And display the first line of each commit
+
+	 $ git shortlog
+
+	 #
+	 # -n option allows to sort by total number of commits (descending order)
+	 #
+	 
+	 $ git shortlog -n					

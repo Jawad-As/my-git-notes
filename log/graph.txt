@@ -1,0 +1,9 @@
+
+
+Draw an ASCII graph representing the branch structure of the commit history.
+
+	$ git log --graph
+
+See also:
+
+	$ gitk

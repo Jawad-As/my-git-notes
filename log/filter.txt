@@ -1,0 +1,23 @@
+#
+
+Filter commits by ammount
+First 3 commits
+
+    $ git log -3
+
+Filter commits by dates
+Since yesterday
+
+    $ git log --since="yesterday"
+	$ git log --after="yesterday"
+	  
+up  to yesterday
+
+	$ git log --until="yesterday"
+    $ git log --before="yesterday"
+
+between 2 dates.
+
+	$ git log --before="2017-10-7" --after="2017-09-30"
+
+Filter commits by authors

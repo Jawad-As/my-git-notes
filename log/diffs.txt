@@ -1,0 +1,10 @@
+# diffs doc
+
+Brief summary of diffs
+
+	  $ git log --stat
+
+Similar to --stat but provides a full view of the changes introduced by each commit
+
+	  $ git log -p
+
