@@ -21,3 +21,24 @@ between 2 dates.
 	$ git log --before="2017-10-7" --after="2017-09-30"
 
 Filter commits by authors
+The use of regex is also allowed
+
+    $ git log --author="John"
+
+	$ git log --author="John\|Mary"
+
+if workflow  separates committers from authors, use --committer flag
+
+   $ git log --committer="John"
+   
+Filter commits by range
+
+    $ git log <since>..<until>
+	$ git log master..feature
+	$ git log feature..master
+
+Filter merge commits
+By default git log includes merges
+To filter out merges
+
+    $ git log --no-merges

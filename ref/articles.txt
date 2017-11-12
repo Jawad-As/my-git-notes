@@ -5,3 +5,11 @@ https://www.atlassian.com/git/tutorials/git-log
 
 Git pickaxe (ie. -S)
 https://gitfu.wordpress.com/2008/06/03/the-pickaxe-finding-changes-was-never-easier/
+
+numpy doc -- how to contribute to numpy
+https://docs.scipy.org/doc/numpy/dev/gitwash/index.html
+
+pandas -- how to contribute to pandas
+https://pandas.pydata.org/pandas-docs/stable/contributing.html
+
+http://matthew-brett.github.io/pydagogue/
